@@ -125,8 +125,8 @@ app.post("/forgot-password", async (req, res) => {
     });
 
     var mailOptions = {
-      from: "youremail@gmail.com",
-      to: "thedebugarena@gmail.com",
+      from: "vaishnavideshmukh244@gmail.com",
+      to: "vaishnavideshmukh244@gmail.com",
       subject: "Password Reset",
       text: link,
     };
